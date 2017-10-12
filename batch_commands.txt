@@ -1,0 +1,37 @@
+add_group a
+add_group b
+add_group c
+add_group b
+add_group c
+list_groups
+add_user a John
+add_user b John
+add_user c John
+add_user a John
+add_user a James
+add_user a Colin
+list_users a
+list_users c
+user_balance a John
+user_balance c John
+user_balance c John
+remove_user a James
+remove_user b Colin
+remove_user a Colin
+list_users a
+under_paid a
+under_paid b
+add_xct a John 1.00
+add_xct a James 1.00
+add_xct a John 2.00
+add_xct a John 4.00
+recent_xct a 2
+list_users a
+add_user a John
+add_user a James
+add_user a Colin
+add_xct a John 15
+list_users a
+add_xct a James 25
+list_users a
+under_paid a
